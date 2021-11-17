@@ -1,0 +1,21 @@
+body{
+    margin: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    form{
+        width: 20%;
+        padding-top: 3%;
+        fieldset{
+            div{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding-bottom: 2%;
+            }
+            button{
+                width: 100%;
+            }
+        }
+    }
+}
